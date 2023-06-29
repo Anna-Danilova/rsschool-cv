@@ -17,7 +17,7 @@ Now I am a photographer in Sevastopol with a great desire to learn programming.
 * Git, GitHub
 
 ## Code Example
-`
+```
 let weight = prompt('Enter your weight in kilograms')
 let height = prompt('Enter your height in meters')
 let bodyMassIndex = weight / (height * height)
@@ -32,7 +32,7 @@ else if(bodyMassIndex > 25) {
     console.log((bodyMassIndex - 25).toPrecision(2))
     alert(`Your mass index more than the norm ${(bodyMassIndex - 25).toPrecision(2)}`)  
 }
-`
+```
 
 ## Language
 * Russian 
