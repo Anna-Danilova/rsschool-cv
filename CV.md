@@ -34,3 +34,7 @@ else if(bodyMassIndex > 25) {
 }
 `
 
+## Language
+* Russian 
+* Ukrainian
+* English (A1)
