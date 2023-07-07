@@ -1,45 +1,124 @@
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    margin: 0;
-    padding: 0;
-  
-    font-family: "Ubuntu", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #313131
-  }
+  margin: 0;
+  padding: 0;
 
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-  }
-
-.header {
-    background-color: #455650;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #313131;
 }
 
-  .main-nav__list {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
-    list-style: none;
-    background-color: #455650;
+.header {
+  background-color: #455650;
+}
 
-  }
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 
-  .main-nav-link {
-    display: block;
-    padding: 15px 10px;
+  list-style: none;
+  background-color: #455650;
 
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+}
 
-  .main-nav-link:hover,
-  .main-nav-link:focus {
-    background-color: #812523;
-  }
+.main-nav-link {
+  display: block;
+  padding: 15px 10px;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-nav-link:hover,
+.main-nav-link:focus {
+  background-color: #812523;
+}
+
+.main-title {
+  margin: 0 auto;
+  padding: 50px 0;
+
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+
+  cursor: default;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me__photo {
+  width: 300px;
+  height: auto;
+}
+
+.about-me__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 70px;
+}
+
+.title {
+  padding: 30px 0;
+  margin: 0;
+
+  text-align: center;
+
+  cursor: default;
+}
+
+.about-me__description {
+max-width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.about-me__adress {
+  padding: 0;
+  margin: 0;
+
+  text-align: center;
+}
+
+.about-me__tel {
+  padding: 15px 0;
+  margin: 0;
+
+  color: #313131;
+
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.about-me__email {
+  padding: 0;
+  margin: 0;
+
+  color: #313131;
+
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.about-me__email:hover,
+.about-me__tel:hover,
+.about-me__email:focus,
+.about-me__tel:focus {
+  color: #812523;
+}
