@@ -1,4 +1,8 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   box-sizing: border-box;
 
   margin: 0;
@@ -9,6 +13,20 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #313131;
+}
+
+.link {
+  color: #313131;
+
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover,
+.link:focus {
+  color: #812523;
+  text-decoration: underline;
 }
 
 .container {
@@ -109,30 +127,11 @@ body {
 .about-me__tel {
   padding: 15px 0;
   margin: 0;
-
-  color: #313131;
-
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
 }
 
 .about-me__email {
   padding: 0;
   margin: 0;
-
-  color: #313131;
-
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-}
-
-.about-me__email:hover,
-.about-me__tel:hover,
-.about-me__email:focus,
-.about-me__tel:focus {
-  color: #812523;
 }
 
 .main__wrapper {
@@ -145,6 +144,39 @@ body {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+.projects__img {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.code {
+  position: relative;
+}
+
+.code::after {
+  content: "";
+
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+  height: 5px;
+
+  background-color: #455650;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer__link {
+  display: block;
+  padding: 0;
+  margin: 0;
 
   color: #313131;
 
@@ -153,13 +185,7 @@ body {
   text-align: center;
 }
 
-.projects__link:hover,
-.projects__link:focus {
-  color: #812523;
-}
-
-.projects__img {
-  display: block;
-  width: 300px;
+.footer__logo {
+  width: 70px;
   height: auto;
 }
