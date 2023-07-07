@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+  
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #313131
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+.header {
+    background-color: #455650;
+}
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    background-color: #455650;
+
+  }
+
+  .main-nav-link {
+    display: block;
+    padding: 15px 10px;
+
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .main-nav-link:hover,
+  .main-nav-link:focus {
+    background-color: #812523;
+  }
