@@ -23,6 +23,7 @@ body {
   .main-nav__list {
     display: flex;
     justify-content: space-between;
+    margin: 0;
 
     list-style: none;
     background-color: #455650;
